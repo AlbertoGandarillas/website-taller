@@ -1,0 +1,120 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+  }
+  
+  /***
+  
+  ====================================================================
+      Global Settings
+  ====================================================================
+  
+   ***/
+  body {
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.8em;
+    font-weight: 400;
+    background: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fb4848;
+  }
+  
+  ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .main_locales {
+    width: 960;
+    margin: auto;
+  }
+  
+  .main_locales {
+    min-height: 600px;
+  }
+  
+  .select {
+    width: 100%;
+  }
+  
+  .select ._item {
+    padding: 0 20px;
+  }
+  
+  .select ._item select {
+    margin-top: 10px;
+    padding: 10px 5px;
+    border: 1px solid #485057;
+  }
+  
+  .select .btn-buscar-tienda {
+    margin: 40px 0 0 20px;
+    padding: 13px 40px;
+  }
+  
+  .select .btn-buscar-tienda:hover {
+    cursor: pointer;
+    padding: 12px 39px;
+    border: 1px solid #ff7e00;
+  }
+  
+  .row {
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .row a {
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.8em;
+    font-weight: 400;
+  }
+  
+  .row .item_left {
+    width: 25%;
+    padding-top: 10px;
+  }
+  
+  .row .item_center {
+    width: 50%;
+    padding-top: 10px;
+  }
+  
+  .row .item_center li:first-child {
+    padding-right: 20px;
+  }
+  
+  .row .item_rigth {
+    padding-top: 10px;
+    width: 25%;
+  }
+  
+  .bg_color {
+    background-color: #ff7e00;
+  }
+  /*# sourceMappingURL=local.css.map */

@@ -1,0 +1,9 @@
+{% extends "workmain.html" %}
+
+{% import 'work.html' as card %}
+
+{% block content %}
+    {% for work in works %}
+        <p>{{ card.workcard(*work) }}</p>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,19 @@
+{% macro workcard(Id, Placa, Fecha, Descripcion, Imagen1, Imagen2) %}
+
+<div class="work_card" id="bright">
+    <div class="info_section">
+        <div class="work_header">
+            <h1>{{Placa}}</h1>
+            <h4>{{Fecha}}</h4>
+            <img src="{{Imagen1}}"/>
+        </div>
+        <div class="work_desc">
+        <p class="text">
+            {{Descripcion}}
+        </p>
+        </div>
+    </div>
+    <div class="blur_back" style="background-image: url('{{Imagen2}}');"></div>
+</div>
+
+{% endmacro %}
